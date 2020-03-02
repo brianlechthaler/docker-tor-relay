@@ -6,4 +6,4 @@ Easy-to-deploy Tor relay using docker.
 `docker build -t docker-tor:latest .`
 
 ## Run
-`docker run --name=docker-tor --net=host docker-tor:latest
+`docker run --name=docker-tor --net=host docker-tor:latest`
