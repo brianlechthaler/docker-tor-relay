@@ -1,0 +1,13 @@
+SocksPolicy reject *
+
+Nickname DockerTor
+ContactInfo (at)le ch tha ler on telegram
+
+Log notice file /var/log/tor/notices.log
+
+ORPort 9001
+ORPort 443
+DirPort 80
+
+ExitRelay 0
+ExitPolicy reject6 *:*, reject *:*
